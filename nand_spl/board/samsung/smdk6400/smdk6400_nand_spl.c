@@ -1,0 +1,1 @@
+/home/ESD/tiny6410/u-boot-2013.01-rc3/board/samsung/smdk6400/smdk6400_nand_spl.c

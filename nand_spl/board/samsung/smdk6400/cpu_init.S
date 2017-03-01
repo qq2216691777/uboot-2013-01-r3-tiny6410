@@ -1,0 +1,1 @@
+/home/ESD/tiny6410/u-boot-2013.01-rc3/arch/arm/cpu/arm1176/s3c64xx/cpu_init.S

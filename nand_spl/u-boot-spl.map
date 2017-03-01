@@ -1,0 +1,469 @@
+
+Discarded input sections
+
+ .data          0x00000000        0x0 start.o
+ .bss           0x00000000        0x0 start.o
+ .data          0x00000000        0x0 cpu_init.o
+ .bss           0x00000000        0x0 cpu_init.o
+ .text          0x00000000        0x0 nand_boot.o
+ .data          0x00000000        0x0 nand_boot.o
+ .bss           0x00000000        0x0 nand_boot.o
+ .data          0x00000000        0x0 lowlevel_init.o
+ .bss           0x00000000        0x0 lowlevel_init.o
+ .data          0x00000000        0x0 crt0.o
+ .bss           0x00000000        0x0 crt0.o
+ .text          0x00000000        0x0 nand_ecc.o
+ .data          0x00000000        0x0 nand_ecc.o
+ .bss           0x00000000        0x0 nand_ecc.o
+ .text.nand_correct_data
+                0x00000000      0x120 nand_ecc.o
+ .text          0x00000000        0x0 s3c64xx.o
+ .text          0x00000000        0x0 smdk6400_nand_spl.o
+ .data          0x00000000        0x0 smdk6400_nand_spl.o
+ .bss           0x00000000        0x0 smdk6400_nand_spl.o
+ .text          0x00000000        0x0 nand_base.o
+ .data          0x00000000      0x920 nand_base.o
+ .bss           0x00000000        0x0 nand_base.o
+ .text.generic_ffs
+                0x00000000       0x50 nand_base.o
+ .text.nand_bch_calculate_ecc
+                0x00000000        0x8 nand_base.o
+ .text.nand_bch_correct_data
+                0x00000000        0x8 nand_base.o
+ .text.nand_release_device
+                0x00000000       0x18 nand_base.o
+ .text.nand_read_byte16
+                0x00000000       0x14 nand_base.o
+ .text.nand_read_word
+                0x00000000       0x10 nand_base.o
+ .text.nand_verify_buf
+                0x00000000       0x44 nand_base.o
+ .text.nand_write_buf16
+                0x00000000       0x30 nand_base.o
+ .text.nand_read_buf16
+                0x00000000       0x2c nand_base.o
+ .text.nand_verify_buf16
+                0x00000000       0x44 nand_base.o
+ .text.nand_check_wp
+                0x00000000       0x50 nand_base.o
+ .text.nand_read_page_raw
+                0x00000000       0x38 nand_base.o
+ .text.nand_read_page_raw_syndrome
+                0x00000000       0xd4 nand_base.o
+ .text.nand_read_page_swecc
+                0x00000000      0x114 nand_base.o
+ .text.nand_read_subpage
+                0x00000000      0x27c nand_base.o
+ .text.nand_read_page_hwecc
+                0x00000000      0x138 nand_base.o
+ .text.nand_read_page_hwecc_oob_first
+                0x00000000      0x134 nand_base.o
+ .text.nand_read_page_syndrome
+                0x00000000      0x128 nand_base.o
+ .text.nand_read_oob_std
+                0x00000000       0x48 nand_base.o
+ .text.nand_read_oob_syndrome
+                0x00000000      0x104 nand_base.o
+ .text.nand_write_oob_std
+                0x00000000       0x70 nand_base.o
+ .text.nand_write_oob_syndrome
+                0x00000000      0x1b4 nand_base.o
+ .text.nand_write_page_raw
+                0x00000000       0x34 nand_base.o
+ .text.nand_write_page_raw_syndrome
+                0x00000000       0xd0 nand_base.o
+ .text.nand_write_page_swecc
+                0x00000000       0xac nand_base.o
+ .text.nand_write_page_hwecc
+                0x00000000       0xc0 nand_base.o
+ .text.nand_write_page_syndrome
+                0x00000000       0xf4 nand_base.o
+ .text.single_erase_cmd
+                0x00000000       0x3c nand_base.o
+ .text.multi_erase_cmd
+                0x00000000       0x8c nand_base.o
+ .text.nand_sync
+                0x00000000       0x10 nand_base.o
+ .text.nand_select_chip
+                0x00000000       0x58 nand_base.o
+ .text.nand_block_checkbad
+                0x00000000       0x80 nand_base.o
+ .text.nand_block_isbad
+                0x00000000       0x40 nand_base.o
+ .text.nand_block_markbad
+                0x00000000       0x3c nand_base.o
+ .text.nand_write_page
+                0x00000000       0xa8 nand_base.o
+ .text.nand_block_bad
+                0x00000000      0x150 nand_base.o
+ .text.nand_fill_oob
+                0x00000000      0x108 nand_base.o
+ .text.nand_do_write_oob
+                0x00000000      0x1bc nand_base.o
+ .text.nand_do_write_ops
+                0x00000000      0x384 nand_base.o
+ .text.nand_write_oob
+                0x00000000       0xa8 nand_base.o
+ .text.nand_write
+                0x00000000       0x90 nand_base.o
+ .text.nand_transfer_oob
+                0x00000000      0x108 nand_base.o
+ .text.nand_default_block_markbad
+                0x00000000      0x180 nand_base.o
+ .text.nand_wait
+                0x00000000       0xd4 nand_base.o
+ .text.nand_wait_ready
+                0x00000000       0x4c nand_base.o
+ .text.nand_do_read_ops
+                0x00000000      0x408 nand_base.o
+ .text.nand_read_oob
+                0x00000000      0x2c0 nand_base.o
+ .text.nand_read
+                0x00000000       0x90 nand_base.o
+ .text.nand_command
+                0x00000000      0x1e0 nand_base.o
+ .text.nand_command_lp
+                0x00000000      0x268 nand_base.o
+ .text.nand_erase_nand
+                0x00000000      0x408 nand_base.o
+ .text.nand_erase
+                0x00000000        0x8 nand_base.o
+ .text.nand_scan_ident
+                0x00000000      0x7a8 nand_base.o
+ .text.nand_scan_tail
+                0x00000000      0x5e4 nand_base.o
+ .text.nand_scan
+                0x00000000       0x24 nand_base.o
+ .text.nand_release
+                0x00000000       0x44 nand_base.o
+ .rodata        0x00000000       0x6c nand_base.o
+ .rodata.str1.1
+                0x00000000      0x286 nand_base.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00000000                . = 0x0
+                0x00000000                . = ALIGN (0x4)
+
+.text           0x00000000      0x59c
+ start.o(.text)
+ .text          0x00000000      0x140 start.o
+                0x00000000                _start
+                0x00000040                _end_vect
+                0x00000040                _TEXT_BASE
+                0x00000048                _bss_start_ofs
+                0x0000004c                _bss_end_ofs
+                0x00000050                _end_ofs
+                0x00000054                IRQ_STACK_START_IN
+                0x0000007c                relocate_code
+                0x00000134                c_runtime_cpu_setup
+ cpu_init.o(.text)
+ .text          0x00000140      0x124 cpu_init.o
+                0x00000140                mem_ctrl_asm_init
+ nand_boot.o(.text)
+ *(.text)
+ .text          0x00000264      0x2bc lowlevel_init.o
+                0x00000268                lowlevel_init
+ .text          0x00000520       0x7c crt0.o
+                0x00000520                _main
+
+.glue_7         0x0000059c        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x0000059c        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000059c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0000059c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.text.nand_command.clone.0
+                0x0000059c       0xf0
+ .text.nand_command.clone.0
+                0x0000059c       0xf0 nand_boot.o
+
+.text.nand_load
+                0x0000068c      0x16c
+ .text.nand_load
+                0x0000068c      0x16c nand_boot.o
+
+.text.nand_boot
+                0x000007f8       0xa0
+ .text.nand_boot
+                0x000007f8       0xa0 nand_boot.o
+                0x000007f8                nand_boot
+
+.text.s3c_nand_select_chip
+                0x00000898       0x40
+ .text.s3c_nand_select_chip
+                0x00000898       0x40 s3c64xx.o
+
+.text.s3c_nand_hwcontrol
+                0x000008d8       0x68
+ .text.s3c_nand_hwcontrol
+                0x000008d8       0x68 s3c64xx.o
+
+.text.s3c_nand_device_ready
+                0x00000940       0x14
+ .text.s3c_nand_device_ready
+                0x00000940       0x14 s3c64xx.o
+
+.text.s3c_nand_enable_hwecc
+                0x00000954       0x40
+ .text.s3c_nand_enable_hwecc
+                0x00000954       0x40 s3c64xx.o
+
+.text.s3c_nand_calculate_ecc
+                0x00000994       0x3c
+ .text.s3c_nand_calculate_ecc
+                0x00000994       0x3c s3c64xx.o
+
+.text.s3c_nand_correct_data
+                0x000009d0       0x6c
+ .text.s3c_nand_correct_data
+                0x000009d0       0x6c s3c64xx.o
+
+.text.board_nand_init
+                0x00000a3c       0xf0
+ .text.board_nand_init
+                0x00000a3c       0xf0 s3c64xx.o
+                0x00000a3c                board_nand_init
+
+.text.board_init_f
+                0x00000b2c       0x18
+ .text.board_init_f
+                0x00000b2c       0x18 smdk6400_nand_spl.o
+                0x00000b2c                board_init_f
+
+.text.nand_read_byte
+                0x00000b44       0x14
+ .text.nand_read_byte
+                0x00000b44       0x14 nand_base.o
+                0x00000b44                nand_read_byte
+
+.text.nand_write_buf
+                0x00000b58       0x2c
+ .text.nand_write_buf
+                0x00000b58       0x2c nand_base.o
+                0x00000b58                nand_write_buf
+
+.text.nand_read_buf
+                0x00000b84       0x2c
+ .text.nand_read_buf
+                0x00000b84       0x2c nand_base.o
+                0x00000b84                nand_read_buf
+                0x00000bb0                . = ALIGN (0x4)
+
+.rodata
+ *(SORT(.rodata*))
+                0x00000bb0                . = ALIGN (0x4)
+
+.data           0x00000bb0        0x8
+ *(.data)
+ .data          0x00000bb0        0x8 s3c64xx.o
+                0x00000bb8                . = ALIGN (0x4)
+
+.got
+ *(.got)
+                0x00000bb8                . = ALIGN (0x4)
+
+.u_boot_list    0x00000bb8        0x0
+                0x00000bb8                _u_boot_list__start = .
+                0x00000bb8                _u_boot_list_cmd__start = .
+ *(SORT(.u_boot_list.cmd.*))
+                0x00000bb8                _u_boot_list_cmd__end = .
+                0x00000bb8                _u_boot_list_env_clbk__start = .
+ *(SORT(.u_boot_list.env_clbk.*))
+                0x00000bb8                _u_boot_list_env_clbk__end = .
+ *(SORT(.u_boot_list.*))
+                0x00000bb8                _u_boot_list__end = .
+                0x00000bb8                . = ALIGN (0x4)
+
+.rel.dyn        0x00000bb8        0x0
+                0x00000bb8                __rel_dyn_start = .
+ *(.rel*)
+                0x00000bb8                __rel_dyn_end = .
+
+.dynsym         0x00000bb8        0x0
+                0x00000bb8                __dynsym_start = .
+ *(.dynsym)
+                0x00000bb8                _end = .
+
+.bss            0x00000bb8        0x4
+                0x00000bb8                __bss_start = .
+ *(.bss)
+ .bss           0x00000bb8        0x4 s3c64xx.o
+                0x00000bbc                . = ALIGN (0x4)
+                0x00000bbc                __bss_end__ = .
+Address of section .text set to 0x0
+LOAD start.o
+LOAD cpu_init.o
+LOAD lowlevel_init.o
+LOAD crt0.o
+LOAD nand_boot.o
+LOAD nand_ecc.o
+LOAD s3c64xx.o
+LOAD smdk6400_nand_spl.o
+LOAD nand_base.o
+OUTPUT(/home/ESD/tiny6410/u-boot-2013.01-rc3/nand_spl/u-boot-spl elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x1c start.o
+ .ARM.attributes
+                0x0000001c       0x1c cpu_init.o
+ .ARM.attributes
+                0x00000038       0x2a nand_boot.o
+ .ARM.attributes
+                0x00000062       0x1c lowlevel_init.o
+ .ARM.attributes
+                0x0000007e       0x1c crt0.o
+ .ARM.attributes
+                0x0000009a       0x2a nand_ecc.o
+ .ARM.attributes
+                0x000000c4       0x2a s3c64xx.o
+ .ARM.attributes
+                0x000000ee       0x2a smdk6400_nand_spl.o
+ .ARM.attributes
+                0x00000118       0x2a nand_base.o
+
+.comment        0x00000000       0x1b
+ .comment       0x00000000       0x1b nand_boot.o
+                                 0x1c (size before relaxing)
+ .comment       0x00000000       0x1c nand_ecc.o
+ .comment       0x00000000       0x1c s3c64xx.o
+ .comment       0x00000000       0x1c smdk6400_nand_spl.o
+ .comment       0x00000000       0x1c nand_base.o
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 nand_boot.o
+ .note.GNU-stack
+                0x00000000        0x0 nand_ecc.o
+ .note.GNU-stack
+                0x00000000        0x0 s3c64xx.o
+ .note.GNU-stack
+                0x00000000        0x0 smdk6400_nand_spl.o
+ .note.GNU-stack
+                0x00000000        0x0 nand_base.o
+
+.debug_line     0x00000000     0x1ae6
+ .debug_line    0x00000000       0x79 start.o
+ .debug_line    0x00000079       0x7c cpu_init.o
+ .debug_line    0x000000f5      0x232 nand_boot.o
+ .debug_line    0x00000327       0xd7 lowlevel_init.o
+ .debug_line    0x000003fe       0x55 crt0.o
+ .debug_line    0x00000453      0x18f nand_ecc.o
+ .debug_line    0x000005e2      0x275 s3c64xx.o
+ .debug_line    0x00000857       0xfa smdk6400_nand_spl.o
+ .debug_line    0x00000951     0x1195 nand_base.o
+
+.debug_info     0x00000000     0x7b2c
+ .debug_info    0x00000000       0x76 start.o
+ .debug_info    0x00000076       0x79 cpu_init.o
+ .debug_info    0x000000ef     0x1650 nand_boot.o
+ .debug_info    0x0000173f       0x7e lowlevel_init.o
+ .debug_info    0x000017bd       0x75 crt0.o
+ .debug_info    0x00001832      0xb53 nand_ecc.o
+ .debug_info    0x00002385     0x16a2 s3c64xx.o
+ .debug_info    0x00003a27      0x2fc smdk6400_nand_spl.o
+ .debug_info    0x00003d23     0x3e09 nand_base.o
+
+.debug_abbrev   0x00000000      0xd53
+ .debug_abbrev  0x00000000       0x14 start.o
+ .debug_abbrev  0x00000014       0x14 cpu_init.o
+ .debug_abbrev  0x00000028      0x2a7 nand_boot.o
+ .debug_abbrev  0x000002cf       0x14 lowlevel_init.o
+ .debug_abbrev  0x000002e3       0x14 crt0.o
+ .debug_abbrev  0x000002f7      0x1dc nand_ecc.o
+ .debug_abbrev  0x000004d3      0x264 s3c64xx.o
+ .debug_abbrev  0x00000737      0x101 smdk6400_nand_spl.o
+ .debug_abbrev  0x00000838      0x51b nand_base.o
+
+.debug_aranges  0x00000000      0x330
+ .debug_aranges
+                0x00000000       0x20 start.o
+ .debug_aranges
+                0x00000020       0x20 cpu_init.o
+ .debug_aranges
+                0x00000040       0x30 nand_boot.o
+ .debug_aranges
+                0x00000070       0x20 lowlevel_init.o
+ .debug_aranges
+                0x00000090       0x20 crt0.o
+ .debug_aranges
+                0x000000b0       0x20 nand_ecc.o
+ .debug_aranges
+                0x000000d0       0x50 s3c64xx.o
+ .debug_aranges
+                0x00000120       0x20 smdk6400_nand_spl.o
+ .debug_aranges
+                0x00000140      0x1f0 nand_base.o
+
+.debug_loc      0x00000000     0x4e2c
+ .debug_loc     0x00000000      0x478 nand_boot.o
+ .debug_loc     0x00000478      0x162 nand_ecc.o
+ .debug_loc     0x000005da      0x3e6 s3c64xx.o
+ .debug_loc     0x000009c0       0x33 smdk6400_nand_spl.o
+ .debug_loc     0x000009f3     0x4439 nand_base.o
+
+.debug_pubnames
+                0x00000000      0x172
+ .debug_pubnames
+                0x00000000       0x20 nand_boot.o
+ .debug_pubnames
+                0x00000020       0x28 nand_ecc.o
+ .debug_pubnames
+                0x00000048       0x26 s3c64xx.o
+ .debug_pubnames
+                0x0000006e       0x23 smdk6400_nand_spl.o
+ .debug_pubnames
+                0x00000091       0xe1 nand_base.o
+
+.debug_pubtypes
+                0x00000000      0x8f4
+ .debug_pubtypes
+                0x00000000      0x244 nand_boot.o
+ .debug_pubtypes
+                0x00000244      0x1ae nand_ecc.o
+ .debug_pubtypes
+                0x000003f2      0x23e s3c64xx.o
+ .debug_pubtypes
+                0x00000630       0x53 smdk6400_nand_spl.o
+ .debug_pubtypes
+                0x00000683      0x271 nand_base.o
+
+.debug_ranges   0x00000000      0x568
+ .debug_ranges  0x00000000       0x80 nand_boot.o
+ .debug_ranges  0x00000080       0x10 nand_ecc.o
+ .debug_ranges  0x00000090       0x40 s3c64xx.o
+ .debug_ranges  0x000000d0       0x10 smdk6400_nand_spl.o
+ .debug_ranges  0x000000e0      0x488 nand_base.o
+
+.debug_str      0x00000000     0x10d4
+ .debug_str     0x00000000      0x792 nand_boot.o
+                                0x970 (size before relaxing)
+ .debug_str     0x00000792       0x37 nand_ecc.o
+                                0x5b5 (size before relaxing)
+ .debug_str     0x000007c9      0x111 s3c64xx.o
+                                0x9d1 (size before relaxing)
+ .debug_str     0x000008da       0x2a smdk6400_nand_spl.o
+                                0x233 (size before relaxing)
+ .debug_str     0x00000904      0x7d0 nand_base.o
+                               0x1127 (size before relaxing)
+
+.debug_frame    0x00000000      0x880
+ .debug_frame   0x00000000       0x78 nand_boot.o
+ .debug_frame   0x00000078       0x2c nand_ecc.o
+ .debug_frame   0x000000a4       0x8c s3c64xx.o
+ .debug_frame   0x00000130       0x28 smdk6400_nand_spl.o
+ .debug_frame   0x00000158      0x728 nand_base.o
